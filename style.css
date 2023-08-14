@@ -14,11 +14,29 @@ body {
 
 #containerFilho {
     background-color: rgba(0, 0, 0, 0.33);
-    height: 50%;
+    height: 70%;
     width: 50%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 20px;
+    padding: 10px;
 }
+.botao{
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    margin: 10px
+}
+.moverBot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Alterações cursor*/
+#resultado{
+    cursor: default;
+}
+
