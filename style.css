@@ -7,18 +7,40 @@
 body {
     background-color: white;
 }
-#container{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#cabecalho {
     display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.33);
     align-items: center;
-    justify-content: center;
+    height: 30px;
+}
+
+#nomeCompleto {
+    font-family: 'Open Sans';
+    font-size: 25px;
 }
 #paiInput{
-    margin-top: 10em;
+    margin-top: 5em;
+}
+input{
+    padding: 0.4rem;
+    margin-bottom: 5px;  
+    border-radius: 16px;
+    border: 0.1;
+    width: 10px;
+}
+#trans{
+    width: auto;
 }
 #containerFilho {
     background-color: rgba(0, 0, 0, 0.33);
-    height: 70%;
-    width: 50%;
+    height: auto;
+    width: auto;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -26,18 +48,20 @@ body {
     border-radius: 20px;
     padding: 10px;
 }
+.texto{
+    font-size: 3.5vh;
+}
 .botao{
-    position: absolute;
-    bottom: 0;
-    width: 200px;
-    margin: 10px
+    width: 150px;
+    margin: 10px;
+    padding: 4px;
+    border: none;
 }
 .moverBot{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 /*Alterações cursor*/
 #resultado{
     cursor: default;

@@ -11,14 +11,27 @@
 </head>
 
 <body>
-    <div id="container">
+    <header>
+        <nav id="cabecalho">
+            <h1 id="nomeCompleto">Lucas Mendes</h1>
+            <button class="btn" type="submit" id="modal-lan">Agendar</button>
+        </nav>
+    </header>
+    <div class="container">
         <div id="containerFilho">
-            <div id="paiInput" class="row">
-                <input type="text" class="inputOne col 4" placeholder="Digite sua nota">
-                <input type="text" class="inputTwo col 4" placeholder="Digite sua nota">
-                <input type="text" class="inputTres col 4" placeholder="Digite sua nota">
-                <input type="text" class="inputQuatro col 6" placeholder="Digite sua nota">
-                <input type="text" class="inputQuinto" placeholder="Digite sua nota">
+            <div class="texto text-center my-5">
+                <p>Descubra sua nota!</p>
+            </div>
+            <div id="trans">
+                <div id="paiInput" class="row mx-5">
+                    <input type="text" class="inputOne  col-md-6  col-sm-12" placeholder="Digite sua nota">
+                    <input type="text" class="inputTwo  col-md-6 col-sm-12" placeholder="Digite sua nota">
+                    <input type="text" class="inputTres col-md 6 col-sm-12" placeholder="Digite sua nota">
+                    <input type="text" class="inputQuatro col-md-6 col-sm-12" placeholder="Digite sua nota">
+
+
+                    <input type="text" class="inputQuinto col-md-12" placeholder="Digite sua nota">
+                </div>
             </div>
             <div class="moverBot">
 
@@ -28,10 +41,15 @@
             <p id="resultado" class="cor-change"></p>
         </div>
     </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
     <script src="script.js"></script>
+
+    <footer>
+
+    </footer>
 </body>
 
 </html>
