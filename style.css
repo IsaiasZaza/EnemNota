@@ -7,11 +7,14 @@
 body {
     background-color: white;
 }
-
-#container {
-  
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
+#paiInput{
+    margin-top: 10em;
+}
 #containerFilho {
     background-color: rgba(0, 0, 0, 0.33);
     height: 70%;

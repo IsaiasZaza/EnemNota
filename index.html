@@ -13,18 +13,17 @@
 <body>
     <div id="container">
         <div id="containerFilho">
-            <div>
-                Coloque aqui as suas notas e descubra a sua média no ENEM e qual faculdade cursar!
-                
+            <div id="paiInput" class="row">
+                <input type="text" class="inputOne col 4" placeholder="Digite sua nota">
+                <input type="text" class="inputTwo col 4" placeholder="Digite sua nota">
+                <input type="text" class="inputTres col 4" placeholder="Digite sua nota">
+                <input type="text" class="inputQuatro col 6" placeholder="Digite sua nota">
+                <input type="text" class="inputQuinto" placeholder="Digite sua nota">
             </div>
-            <input type="text" class="inputOne" placeholder="Digite sua nota">
-            <input type="text" class="inputTwo" placeholder="Digite sua nota">
-            <input type="text" class="inputTres" placeholder="Digite sua nota">
-            <input type="text" class="inputQuatro" placeholder="Digite sua nota">
-            <input type="text" class="inputQuinto" placeholder="Digite sua nota">
             <div class="moverBot">
+
                 <button onclick="calcularSoma()" class="botao">Veja sua nota</button>
-                
+
             </div>
             <p id="resultado" class="cor-change"></p>
         </div>
