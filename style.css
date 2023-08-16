@@ -7,10 +7,24 @@
 body {
     background-color: white;
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.inicioFuturo{
+    color: red;
+    font-size: 4vh;
+}
+.banner h1{
+    font-size: 7vh;
+}
+#container{
+    background-color: wheat;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+.banner{
+    align-items: center;
+}
+.inicioFuturo{
+    align-items: center;
 }
 #cabecalho {
     display: flex;
@@ -26,6 +40,8 @@ body {
 }
 #paiInput{
     margin-top: 5em;
+    width: auto;
+    font-size: 2.5vh;
 }
 input{
     padding: 0.4rem;
@@ -34,17 +50,11 @@ input{
     border: 0.1;
     width: 10px;
 }
-#trans{
-    width: auto;
-}
-#containerFilho {
+
+.container {
     background-color: rgba(0, 0, 0, 0.33);
     height: auto;
-    width: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 100%;
     border-radius: 20px;
     padding: 10px;
 }
