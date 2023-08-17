@@ -12,10 +12,11 @@ function calcularSoma(){
     
    
     //soma notas;
-    let soma = inputOne + inputTwo + inputTres + inputQuatro + inputQuinto / 5;//somar todos e dividir por 5
+    let soma = inputOne + inputTwo + inputTres + inputQuatro + inputQuinto
+    let somaTotal = soma / 5;
    
     //Id Resultado
-    let resultadoFinal = document.getElementById("resultado").textContent = "resultado " + soma;
+    let resultadoFinal = document.getElementById("resultado").textContent = " " + somaTotal;
 
     //Mudança de Cores conforme o Resultado
    
@@ -32,7 +33,7 @@ function calcularSoma(){
 }
 
 
-const botao = document.querySelector('.btnn');
+const botao = document.querySelector('.botao');
 botao.addEventListener("click", function(){
     let modal = document.querySelector('.modal');
     let fechar = document.querySelector('.fechar');
