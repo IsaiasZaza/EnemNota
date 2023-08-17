@@ -30,3 +30,18 @@ function calcularSoma(){
         trocarCor.style.backgroundColor = 'black';
     }*/
 }
+
+
+const botao = document.querySelector('.btnn');
+botao.addEventListener("click", function(){
+    let modal = document.querySelector('.modal');
+    let fechar = document.querySelector('.fechar');
+    modal.style.display = 'block';
+})
+
+const fechar = document.querySelector('.fechar')
+
+fechar.addEventListener("click", function(){
+    let modal = document.querySelector('.modal');
+    modal.style.display = 'none';
+})

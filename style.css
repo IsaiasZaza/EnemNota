@@ -77,3 +77,44 @@ input{
     cursor: default;
 }
 
+
+/*Modal*/
+
+.btn{
+    padding: 10px;
+    background-color: rgb(6, 139, 255);
+    display: inline-block;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn:hover{
+    background-color: red;
+}
+.modal{
+    width: 500px;
+    height: 500px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    animation: animate;
+    animation-duration: 800ms;
+}
+.fechar{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    float: right;
+    cursor: pointer;
+}
+
+@keyframes animate{
+    from{opacity: 1;}    
+    from{opacity: 0;}    
+}
