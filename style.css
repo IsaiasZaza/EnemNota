@@ -233,3 +233,19 @@ footer img{
         font-size: 2vh;
     }
 }
+@media (max-width: 389px){
+    .banner h1{
+        font-size: 3vh;
+    }
+    .inicioFuturo{
+        font-size: 2.4vh;
+    }
+}
+@media (max-width: 280px){
+    .banner h1{
+        font-size: 2.7vh;
+    }
+    .inicioFuturo{
+        font-size: 2.4vh;
+    }
+}
