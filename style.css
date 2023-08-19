@@ -228,10 +228,10 @@ footer img{
 
 @media (max-width: 580px){
     .banner h1{
-        font-size: 2.8vh;
+        font-size: 3vh;
     }
     .inicioFuturo{
-        font-size: 2vh;
+        font-size: 2.5vh;
     }
 }
 @media (max-width: 389px){
