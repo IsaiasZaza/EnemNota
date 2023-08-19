@@ -27,7 +27,13 @@ body {
     font-size: 7vh;
     font-weight: bold;
 }
-
+.logoNav{
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .inicioFuturo {
     align-items: center;
     font-size: 5vh;
@@ -116,9 +122,9 @@ input:focus{
 .modal {
     width: 300px;
     height: 300px;
-    background-color: #D99036;
+    background-color: #d99036d1;
     position: absolute;
-    top: 80%;
+    top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: none;
@@ -146,8 +152,8 @@ input:focus{
         opacity: 0;
     }
 }
-#descubraNota{
-    box-shadow: 0px 8px 20px rgba(67, 143, 209, 0.4);
+#descubra{
+    box-shadow: 16px 8px 20px rgba(67, 143, 209, 0.4);
 }
 
 /*Textos*/
