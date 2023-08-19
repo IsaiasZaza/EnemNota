@@ -25,7 +25,7 @@ body {
 }
 
 .banner h1 {
-    font-size: 7vh;
+    font-size: 6vh;
     font-weight: bold;
     
 }
@@ -38,7 +38,7 @@ body {
 }
 .inicioFuturo {
     align-items: center;
-    font-size: 5vh;
+    font-size: 4vh;
     color: red;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
