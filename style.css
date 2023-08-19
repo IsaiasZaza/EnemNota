@@ -7,18 +7,6 @@
 body {
     background-color: white;
 }
-/*Cabecalho*/
-header{
-    align-items: center;
-    text-align: center;
-}
-#cabecalho a{
-    text-decoration: none;
-    color: black;
-    align-items: center;
-    padding: 10px;
-}
-
 #container {
     background-image: url(professora-na-mesa-escrevendo-close-up.jpg);
     background-size: cover;
@@ -32,6 +20,7 @@ header{
 .banner {
     align-items: center;
     font-weight: bold;
+    cursor: default;
 }
 
 .banner h1 {
@@ -45,18 +34,6 @@ header{
     color: red;
 }
 
-#cabecalho {
-    display: flex;
-    justify-content: space-around;
-    background-color: #D9A282;
-    align-items: center;
-    height: 30px;
-}
-
-#nomeCompleto {
-    font-family: 'Open Sans';
-    font-size: 25px;
-}
 
 #paiInput {
     margin-top: 3em;
@@ -69,7 +46,10 @@ input {
     margin-bottom: 5px;
     border-radius: 16px;
     border: 1px solid #D9A282;
-    width: 10px;
+    outline: none;
+}
+input:focus{
+    box-shadow: 0px 0px 5px #000;
 }
 
 .container {
@@ -145,16 +125,16 @@ input {
     animation: animate;
     animation-duration: 800ms;
     border-radius: 16px;
+    border: 1px solid black;
 }
 
 .fechar {
-    width: 30px;
-    height: 30px;
-    background-color: black;
-    border-radius: 50%;
+    width: 25px;
     float: right;
     cursor: pointer;
     position: relative;
+    font-size: 25px;
+    color: rgb(34, 34, 34);
 }
 
 @keyframes animate {
@@ -166,10 +146,14 @@ input {
         opacity: 0;
     }
 }
+#descubraNota{
+    box-shadow: 0px 8px 20px rgba(67, 143, 209, 0.4);
+}
 
 /*Textos*/
 #textoCentral h2 {
     color: #D99036;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #textoSecundario p {
@@ -178,10 +162,12 @@ input {
     text-align: justify;
     font-weight: bold;
     color: #3e3e3e;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #textoSecundario h2 {
     color: #D99036;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /*Setor de Marcações*/

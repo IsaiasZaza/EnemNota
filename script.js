@@ -8,8 +8,6 @@ function calcularSoma(){
     let inputTres = parseFloat(document.querySelector(".inputTres").value);
     let inputQuatro = parseFloat(document.querySelector(".inputQuatro").value);
     let inputQuinto = parseFloat(document.querySelector(".inputQuinto").value);
-    
-    
    
     //soma notas;
     let soma = inputOne + inputTwo + inputTres + inputQuatro + inputQuinto
@@ -17,19 +15,10 @@ function calcularSoma(){
    
     //Id Resultado
     let resultadoFinal = document.getElementById("resultado").textContent = " " + somaTotal;
-
-    //Mudança de Cores conforme o Resultado
    
+    //Mudança de Cores conforme o Resultado
     let trocarCor = document.querySelector('.cor-change');
     const valor = 500;
-   
-    /*if(soma >= 0 && soma <= 500){
-        trocarCor.style.backgroundColor = 'red';
-    }if(soma >= 500 && soma <= 800){
-        trocarCor.style.backgroundColor = 'blue';
-    }else{
-        trocarCor.style.backgroundColor = 'black';
-    }*/
 }
 
 
@@ -47,3 +36,11 @@ fechar.addEventListener("click", function(){
     modal.style.display = 'none';
 })
 
+
+ /* treino teste if(soma >= 0 && soma <= 500){
+        trocarCor.style.backgroundColor = 'red';
+    }if(soma >= 500 && soma <= 800){
+        trocarCor.style.backgroundColor = 'blue';
+    }else{
+        trocarCor.style.backgroundColor = 'black';
+    }*/
