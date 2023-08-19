@@ -1,4 +1,4 @@
-const somar = document.querySelector('#resultado')
+const somar = document.querySelector('#resultado');
 
 function calcularSoma(){
    

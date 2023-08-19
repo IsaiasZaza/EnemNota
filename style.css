@@ -30,7 +30,7 @@ body {
     
 }
 .logoNav{
-    width: 200px;
+    width: 100px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -39,7 +39,7 @@ body {
 .inicioFuturo {
     align-items: center;
     font-size: 4vh;
-    color: red;
+    color: rgb(255, 0, 0);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
