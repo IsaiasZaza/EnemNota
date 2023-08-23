@@ -8,7 +8,7 @@ body {
     background-color: white;
 }
 #container {
-    background-image: url(Untitled\ \(7\).png);
+    background-image: url(professora-na-mesa-escrevendo-close-up.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center, center;
@@ -21,27 +21,17 @@ body {
     align-items: center;
     font-weight: bold;
     cursor: default;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .banner h1 {
-    font-size: 6vh;
+    font-size: 7vh;
     font-weight: bold;
-    
 }
-.logoNav{
-    width: 100px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+
 .inicioFuturo {
     align-items: center;
-    font-size: 4vh;
-    color: rgb(255, 0, 0);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
+    font-size: 5vh;
+    color: red;
 }
 
 
@@ -60,6 +50,12 @@ input {
 }
 input:focus{
     box-shadow: 0px 0px 5px #000;
+}
+/*tirar as setas dos inputs*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 .container {
@@ -87,7 +83,6 @@ input:focus{
     border-radius: 8px;
     background-color: rgb(91, 91, 91);
     color: white;
-
 }
 .botao:hover{
     background-color: #D99036;
@@ -127,9 +122,9 @@ input:focus{
 .modal {
     width: 300px;
     height: 300px;
-    background-color: #d99036d1;
+    background-color: #D99036;
     position: absolute;
-    top: 100%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: none;
@@ -157,8 +152,8 @@ input:focus{
         opacity: 0;
     }
 }
-#descubra{
-    box-shadow: 16px 8px 20px rgba(67, 143, 209, 0.4);
+#descubraNota{
+    box-shadow: 0px 8px 20px rgba(67, 143, 209, 0.4);
 }
 
 /*Textos*/
@@ -201,52 +196,4 @@ footer {
 footer img{
     width: 30px;
     margin: 2px
-}
-
-@media (max-width: 780px){
-    .banner h1{
-        font-size: 4.5vh;
-    }
-    .inicioFuturo{
-        font-size: 4vh;
-    }
-    .navName{
-        font-size: 3vh;
-    }
-}
-@media (max-width: 1024px){
-    .banner h1{
-        font-size: 4vh;
-    }
-    .inicioFuturo{
-        font-size: 3.5vh;
-    }
-    .navName{
-        font-size: 3.5vh;
-    }
-}
-
-@media (max-width: 580px){
-    .banner h1{
-        font-size: 3vh;
-    }
-    .inicioFuturo{
-        font-size: 2.5vh;
-    }
-}
-@media (max-width: 389px){
-    .banner h1{
-        font-size: 3vh;
-    }
-    .inicioFuturo{
-        font-size: 2.5vh;
-    }
-}
-@media (max-width: 280px){
-    .banner h1{
-        font-size: 2.7vh;
-    }
-    .inicioFuturo{
-        font-size: 2.4vh;
-    }
 }
