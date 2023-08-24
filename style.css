@@ -26,12 +26,14 @@ body {
 .banner h1 {
     font-size: 7vh;
     font-weight: bold;
+    font-family: 'Unbounded', cursive;
 }
 
 .inicioFuturo {
     align-items: center;
     font-size: 5vh;
     color: red;
+    font-family: 'Unbounded', cursive;
 }
 
 
@@ -39,6 +41,7 @@ body {
     margin-top: 3em;
     width: auto;
     font-size: 2.5vh;
+    font-family: 'Unbounded', cursive;
 }
 
 input {
@@ -70,6 +73,7 @@ input::-webkit-inner-spin-button{
     color: #D99036;
     font-size: 4vh;
     font-weight: bold;
+    font-family: 'Unbounded', cursive;
 }
 .texto {
     font-size: 3.5vh;
@@ -83,6 +87,7 @@ input::-webkit-inner-spin-button{
     border-radius: 8px;
     background-color: rgb(91, 91, 91);
     color: white;
+    font-family: 'Unbounded', cursive;
 }
 .botao:hover{
     background-color: #D99036;
@@ -159,7 +164,7 @@ input::-webkit-inner-spin-button{
 /*Textos*/
 #textoCentral h2 {
     color: #D99036;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Unbounded', cursive;
 }
 
 #textoSecundario p {
@@ -168,18 +173,19 @@ input::-webkit-inner-spin-button{
     text-align: justify;
     font-weight: bold;
     color: #3e3e3e;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Unbounded', cursive;
 }
 
 #textoSecundario h2 {
     color: #D99036;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Unbounded', cursive;
 }
 
 /*Setor de Marcações*/
 p strong {
     color: #D99036;
     font-size: 3vh;
+    font-family: 'Unbounded', cursive;
 }
 
 
