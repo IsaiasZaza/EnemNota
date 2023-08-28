@@ -140,12 +140,13 @@ input::-webkit-inner-spin-button{
 }
 
 .fechar {
-    width: 25px;
+    width: 28px;
     float: right;
     cursor: pointer;
     position: relative;
     font-size: 25px;
     color: rgb(34, 34, 34);
+    padding: 10px;
 }
 
 @keyframes animate {
