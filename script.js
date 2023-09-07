@@ -45,5 +45,6 @@ treino teste if(soma >= 0 && soma <= 500){
    }else{
        trocarCor.style.backgroundColor = 'black';
    }*/
+   
 
    
