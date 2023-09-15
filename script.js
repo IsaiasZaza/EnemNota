@@ -1,4 +1,6 @@
 const somar = document.querySelector('#resultado');
+const botao = document.querySelector('.botao');
+const fechar = document.querySelector('.fechar')
 
 function calcularSoma() {
 
@@ -18,23 +20,23 @@ function calcularSoma() {
 
 }
 
-const botao = document.querySelector('.botao');
 botao.addEventListener("click", function (evento) {
     evento.preventDefault();
     let modal = document.querySelector('.modal');
     let fechar = document.querySelector('.fechar');
     
-    if(modal.style.display = 'none'){
-        modal.style.display = 'block';
+    if(modal.style.display = 'd-none'){
+        modal.classList.add('d-block');
         calcularSoma()
     }
 })
 
-const fechar = document.querySelector('.fechar')
-
 fechar.addEventListener("click", function () {
     let modal = document.querySelector('.modal');
-    modal.style.display = 'none';
+    if(modal.style.display = 'd-block');{
+        modal.classList.remove('d-block');
+    }
+ 
 })
 
 
