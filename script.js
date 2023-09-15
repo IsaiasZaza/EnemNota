@@ -19,10 +19,15 @@ function calcularSoma() {
 }
 
 const botao = document.querySelector('.botao');
-botao.addEventListener("click", function () {
+botao.addEventListener("click", function (evento) {
+    evento.preventDefault();
     let modal = document.querySelector('.modal');
     let fechar = document.querySelector('.fechar');
-    modal.style.display = 'block';
+    
+    if(modal.style.display = 'none'){
+        modal.style.display = 'block';
+        calcularSoma()
+    }
 })
 
 const fechar = document.querySelector('.fechar')
@@ -31,6 +36,7 @@ fechar.addEventListener("click", function () {
     let modal = document.querySelector('.modal');
     modal.style.display = 'none';
 })
+
 
 
 /*
