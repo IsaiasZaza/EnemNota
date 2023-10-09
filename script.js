@@ -29,6 +29,7 @@ botao.addEventListener("click", function (evento) {
         modal.classList.add('d-block');
         calcularSoma()
     }
+    evento.input.reset();
 })
 
 fechar.addEventListener("click", function () {
